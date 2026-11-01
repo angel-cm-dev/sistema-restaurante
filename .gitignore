@@ -1,0 +1,26 @@
+# Dependencias y builds
+node_modules/
+dist/
+build/
+coverage/
+TestResults/
+*.tsbuildinfo
+
+# Entorno (nunca subir secretos)
+.env
+.env.*
+!.env.example
+
+# Bases locales y logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+npm-debug.log*
+
+# Editor / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
